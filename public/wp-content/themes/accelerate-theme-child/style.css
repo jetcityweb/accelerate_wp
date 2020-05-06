@@ -54,3 +54,27 @@ Text Domain:  accelerate-theme-child
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+/* CASE STUDY */
+
+.case-study-sidebar {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.case-study-header {
+  width: 100%;
+}
+
+.case-study-image {
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+  
+}
+
+.case-study-link {
+  text-align: left;
+  width: 100%;
+  
+}

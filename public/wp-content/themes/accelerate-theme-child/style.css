@@ -57,6 +57,7 @@ Text Domain:  accelerate-theme-child
 
 /* CASE STUDY */
 
+
 .case-study-sidebar {
   display: flex;
   flex-flow: row wrap;
@@ -66,10 +67,19 @@ Text Domain:  accelerate-theme-child
   width: 100%;
 }
 
+.case-study-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  
+
+}
 .case-study-image {
   display: flex;
   justify-content: center;
-  width: 33.33%;
+  width: 30%;
+  height: max-content;
   
 }
 
@@ -78,3 +88,5 @@ Text Domain:  accelerate-theme-child
   width: 100%;
   
 }
+
+/* END CASE STUDY STYLES */

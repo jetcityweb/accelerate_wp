@@ -89,8 +89,6 @@ Text Domain:  accelerate-theme-child
   
 }
 
-/* END CASE STUDY STYLES */
-
 /* HOME PAGE FEATURE SECTION */
 
 .featured-work .site-content {
@@ -128,4 +126,35 @@ Text Domain:  accelerate-theme-child
 .individual-featured-work h4 {
   text-align: center;
   margin-top: 1.5em;
+}
+
+/* ARCHIVE CASE STUDIES PAGE */
+
+.case-study-archive {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.case-study-archive-text {
+
+  width: 40%;
+}
+
+.case-study-archive-text h2 {
+  margin-top: 0;
+}
+
+.case-study-archive-text h4 {
+  margin-top: 0;
+}
+
+.case-study-archive-text p strong {
+  text-transform: uppercase;
+  color: #45ac9d;
+}
+
+.case-study-archive-image {
+  max-width: 50%;
 }

@@ -158,3 +158,18 @@ Text Domain:  accelerate-theme-child
 .case-study-archive-image {
   max-width: 50%;
 }
+
+/* SOCIAL MEDIA NAVIGATION */
+
+
+
+.social-media-menu {
+  list-style: none;
+  display: inline;
+  
+}
+
+.social-media-menu li {
+  width: 30%;
+  float: right;
+}

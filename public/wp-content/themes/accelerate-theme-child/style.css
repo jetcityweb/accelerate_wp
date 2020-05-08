@@ -90,3 +90,42 @@ Text Domain:  accelerate-theme-child
 }
 
 /* END CASE STUDY STYLES */
+
+/* HOME PAGE FEATURE SECTION */
+
+.featured-work .site-content {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: center;
+  text-align: center; */
+}
+
+.featured-work .site-content h3 {
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.featured-work .site-content ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage-feature-work {
+  display: flex;
+  width: 100%;
+  
+}
+
+.individual-featured-work {
+  width: 30%;
+  height: auto;
+  
+}
+
+.individual-featured-work h4 {
+  text-align: center;
+  margin-top: 1.5em;
+}
